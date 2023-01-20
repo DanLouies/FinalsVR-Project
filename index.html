@@ -12,7 +12,6 @@
                    look-controls="enabled: true" 
                    cursor-visible="enabled: false" 
                    wasd-controls="enabled: true" 
-                   jump-controls="enabled: true">
          </a-entity>
          
         <!-- CEILING FLOOR --> 
@@ -33,52 +32,60 @@
                    src: url(images/ceiling.jpg)">
             
          </a-entity>
-         
-         <a-box color="#FFFFFF" position="2 -1 0">
-            </a-box>
   
          <!-- Front Back Walls -->
    <a-entity geometry=" primitive: box; depth: 0.1; height: 12; width: 22"
-             position="0 6.5 -10" material="shader: standard; roughness: 1; src: url(images/wall.jpg)">
+             position="0 6.5 -10" 
+             material="shader: standard; 
+                       roughness: 1; 
+                       src: url(images/wall.jpg)">
          </a-entity>
          
          <a-entity geometry=" primitive: box; depth: 0.1; height: 12; width: 22" 
                    position="0 6.5 14" 
-                   material="shader: standard; roughness: 1; src: url(images/wall.jpg)">
+                   material="shader: standard; 
+                             roughness: 1;
+                             src: url(images/wall.jpg)">
          </a-entity>
          
          <!-- Side Walls -->
          <a-entity geometry=" primitive: box; depth: 0.1; height: 12; width: 24" 
                    position="11 6.5 2"
                    rotation="0 90 0" 
-
-         material="shader: standard; roughness: 1; src: url(images/wall.jpg)">
-            
+                   material="shader: standard; 
+                             roughness: 1; 
+                             src: url(images/wall.jpg)">
          </a-entity>
          
          <a-entity geometry=" primitive: box; depth: 0.1; height: 12; width: 24" 
                    position="-11 6.5 2" 
                    rotation="0 90 0" 
-
-         material="shader: standard; roughness: 1; src: url(images/wall.jpg)">
-            
+                   material="shader: standard;
+                             roughness: 1; 
+                             src: url(images/wall.jpg)">
          </a-entity>
          
        <!-- Other -->
 
          <a-entity geometry=" primitive: box; depth: 2; height: 16; width: 18" 
                    position="0 2.8 -9.1" 
-
-         material="shader: standard; color: #FFFFFF">
-            
+                   material="shader: standard; 
+                             color: #FFFFFF">
          </a-entity>
         
          
-         <a-video src="videos/video.mp4" autoplay="true" width="19" height="11" position="0 5.5 -8">
+         <a-video src="videos/video.mp4" 
+                  autoplay="true" 
+                  width="19" 
+                  height="11"
+                  position="0 5.5 -8">
             
          </a-video>
          
-         <a-model src="models/Cadeira.obj" scale="1 1 1" position="0 0.35 7.6" rotation="0 90 0">
+         <a-model src="models/Cadeira.obj" 
+                  scale="1 1 1" 
+                  position="0 0.35 7.6" 
+                  rotation="0 90 0">
          
          </a-model>
         
