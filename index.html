@@ -3,9 +3,27 @@
    <head>
       <title>Finals VR Project</title>
       <meta name="author" content="Dan Louies T. Dimaunahan">
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+      <link rel="stylesheet" href="style.css" />
    </head>
    <body>
+      div class="room">
+      <button class="btn">Read Letter</button>
+      <div class="table">
+        <h3 class="letter">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          consequuntur minima non magnam modi odit est suscipit similique minus
+          saepe?
+        </h3>
+        <div class="table-leg table-leg-1"></div>
+        <div class="table-leg table-leg-2"></div>
+        <div class="table-leg table-leg-3"></div>
+        <div class="floor"></div>
+      </div>
+    </div>
+
       <a-scene>
          
          <a-entity camera position="0 5 0" look-controls="enabled: true" cursor-visible="enabled: false" wasd-controls="enabled: true"></a-entity>
@@ -77,5 +95,6 @@
          <!-- Lighting and background -->
          <a-sky color="#FFFFFF"></a-sky>
       </a-scene>
+   <script src="script.js"></script>
    </body>
 </html>
